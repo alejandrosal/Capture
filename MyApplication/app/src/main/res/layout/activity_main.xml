@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TituloCalificarPaquete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="16dp"
+        android:text="Calificar Paquete"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSitioHospedaje"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:text="Sitio de Hospedaje:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ratingBarSitioHospedaje"
+        app:layout_constraintEnd_toStartOf="@+id/textViewNombreSitioHospedaje" />
+
+    <TextView
+        android:id="@+id/textViewNombreSitioHospedaje"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Nombre"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/ratingBarSitioHospedaje"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RatingBar
+        android:id="@+id/ratingBarSitioHospedaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewActividadesPropuestas"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewActividadesPropuestas"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="400dp"
+        android:layout_marginEnd="1dp"
+        android:text="Actividades Propuestas:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewNombreActividadPropuesta" />
+
+    <TextView
+        android:id="@+id/textViewNombreActividadPropuesta"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Actividad propuesta"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/ratingBarActividadesPropuestas"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RatingBar
+        android:id="@+id/ratingBarActividadesPropuestas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewRestaurantes"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRestaurantes"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="320dp"
+        android:layout_marginEnd="1dp"
+        android:text="Restaurantes:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewRestaurante" />
+
+    <TextView
+        android:id="@+id/textViewRestaurante"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Restaurante"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/ratingBarRestaurantes"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RatingBar
+        android:id="@+id/ratingBarRestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSitiosInteres"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSitiosInteres"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="240dp"
+        android:layout_marginEnd="1dp"
+        android:text="Sitios de interes:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewSitioInteres" />
+
+    <TextView
+        android:id="@+id/textViewSitioInteres"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Sitio de interes"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/ratingBarSitiosInteres"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RatingBar
+        android:id="@+id/ratingBarSitiosInteres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewRecomendaciones"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRecomendaciones"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:layout_marginEnd="200dp"
+        android:text="Recomendaciones:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextRecomendaciones"
+        android:layout_width="352dp"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <Button
+        android:id="@+id/buttonCalificarPaqueteEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+</android.support.constraint.ConstraintLayout>

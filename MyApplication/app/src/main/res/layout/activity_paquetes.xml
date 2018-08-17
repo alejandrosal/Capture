@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Paquetes" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="ContenidodelPaquete"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="SitiodeHospedaje"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Direccion"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="ActividadesPropuestas"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:hint="Actividad1" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Restaurante"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Restaurante" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Sitiodeinteres"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="sitio" />
+
+
+
+</LinearLayout>

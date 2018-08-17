@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Acompañantes" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="51dp"
+        android:text="NumerodeAcompañantes" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="102dp"
+        android:text="Ingreeselosdatosdelosacompañantes" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="158dp"
+        android:text="Acompañantes1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="228dp"
+        android:text="nombre" />
+
+    <EditText
+        android:layout_width="194dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:text="Email" />
+
+    <EditText
+        android:layout_width="194dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:id="@+id/fin"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="172dp"
+        android:text="Acompañantes2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:text="Button" />
+
+
+</RelativeLayout>

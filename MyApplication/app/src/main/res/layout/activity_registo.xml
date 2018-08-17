@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="crearunacuenta"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="nombre" />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="DIRECCIONDECORREOELECTRONICO"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="FECHADENACIMIENTO"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="CONTRASEÑA"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="COMFIRMARCONTRASEÑA"/>
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="TIPODECLIENTE"/>
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:inputType="text"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Resgistrarse"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
